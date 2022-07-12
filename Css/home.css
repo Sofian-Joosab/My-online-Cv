@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	
+}
+
+.nav-div{
+	margin: auto;
+	height: 16px;
+}
+
+#current{
+	background-color: red;
+}
+
+ul{
+	list-style-type: none;
+	overflow: 0;
+}
+li{
+	float: right;
+}
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+header.logo{
+	text-align: left;
+}
+
+/*
+Image slider goes here!
+*/
+
+img {
+		max-width: 100%;
+	}
+	.cycle-slideshow{
+		width: 100%;
+		max-width: 99%;
+		display: block;
+		position: relative;
+		margin: 40px auto;
+		overflow: hidden;
+	}
+
+	.cycle-prev, .cycle-next{
+		font-size: 250%;
+		color: #FFF;
+		display: block;
+		position: absolute;
+		top: 50%;
+		margin-top: -16px;
+		z-index: 999;
+		cursor: pointer;
+	}
+	.cycle-prev{
+		font-size: 60px;
+		left: 0%;
+		background-color: #625a55;
+		opacity: 0.5;
+		
+	}
+	.cycle-prev:hover{
+		opacity: 1.0;
+	}
+	.cycle-next{
+		font-size: 60px;
+		right: 0%;
+		background-color: #625a55;
+		opacity: 0.5;
+	}
+	.cycle-next:hover{
+		opacity: 1.0;
+	}
+
+	.cycle-pager{
+		width: 100%;
+		text-align: center;
+		z-index: 9999;
+		top: 95%;
+		position: absolute;
+		cursor: pointer;
+	}
+	.cycle-pager span{
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 20px;
+		height: 4px;
+		display: inline-block;
+		border: 1.5px solid #FFF;
+		margin: 0 10px;
+
+	}
+	.cycle-pager .cycle-pager-active{
+		background-color: #FFF;
+		z-index: 150;
+	}
+
+/*
+Ate aqui!
+*/
+
+h2{
+	text-align: center;
+}
+
+.Explaining-tree img{
+	position: relative;
+	display: block;
+	margin-bottom: 10%;
+	margin-left: 45%;
+	z-index: 2;
+	
+}

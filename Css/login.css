@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+form{
+
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	background-color: #FFF;
+	text-align: center;
+	border: 2px #999 solid;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+form input {
+
+	margin-top: 8px;
+	margin-left: 3px;
+	padding-right: 15px;
+}
+
+button{
+
+	width: 80px;
+	height: 30px;
+	background-color: #010F4B;
+	color: #fff;
+	border-radius: 3px;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	border: none;
+	margin-top: 5%;
+}
+button:hover{
+
+	background-color:#002F77 ;
+}
+
+.error{
+	
+	text-align: center;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.Successfully{	
+	text-align: center;
+	color: #01B509;
+}
